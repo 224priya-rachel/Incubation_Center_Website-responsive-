@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Century Gothic';
+}
+
+header{
+    background-image: url(../img3.jpg);
+    height: fit-content;
+    md:bg-contain;
+    
+    background-size: cover;
+    background-position: center;
+   background-attachment: scroll;
+    position: relative;
+    top: -4px;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  /* Links inside the navbar */
+  .navbar a {
+    float: left;
+    font-size: 10px;
+    color: white;
+    text-align: center;
+    padding: 5px 5px;
+    text-decoration: none;
+  }
+  ul{
+    float: left;
+    list-style-type: none;
+    margin-top: 10px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff));
+    padding: 5px 5px;
+    border: 1px solid #000000;
+    transition: 0.6s ease-in-out;
+}
+ul li a:hover{
+    background-color: rgba(64, 205, 224, 0.699);
+    color: black;
+}
+ul li.active a{
+    background-color: #fff;
+    color: #000;
+}
+.logo img{
+    float: left;
+    width: 100px;
+    height: 100px;
+}
+
+.logo1 img{
+    float: left;
+    width: 80px;
+    height: 100px;
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.slash-2 {
+    height: 8px;
+    $color: darkmagenta;
+    color: $color;
+    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="3px" height="3px" viewBox="0 0 3 3" fill="#{$color}"><polygon points="0,0.5 0,1.5 1.5,3 2.5,3"/><polygon points="2.5,0 1.5,0 3,1.5 3,0.5"/></svg>');
+    background-size: 3px 3px;
+    width: 65%;
+  }
+  
+
+.sidenav ul {
+    width: 130px;
+    height: 80px;
+    position: fixed;
+    background: #eee;
+    overflow-y: auto;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .sidenav a {
+    
+    text-decoration: none;
+    font-size: 25px;
+    color: #2196F3;
+    display: inside;
+    width: 80px;
+    background-color: #333;
+  }
+  
+
+  
